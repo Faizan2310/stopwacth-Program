@@ -1,0 +1,29 @@
+.timerBtn{
+    width: 90px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color:lightblue;
+    color:floralwhite;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.timerBtn:hover{
+    background-color:cadetblue;
+}
+
+#timeContainer{
+    width: 300px;
+    height: 110px;
+    background-color:lightcyan;
+    border-radius: 10px;
+    border: 2px solid;
+    text-align: center;
+}
+#timeDisplay{
+    font-size: 60px;
+    font-weight:bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
