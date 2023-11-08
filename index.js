@@ -29,6 +29,10 @@ pauseBtn.addEventListener("click", ()=>{
     }
 })
 
+resetBtn.addEventListener("click", ()=>{
+    
+})
+
 function updateTime(){
     elapsedTime = Date.now() - startTime; 
     secs = Math.floor((elapsedTime/1000)%60);
